@@ -1,0 +1,45 @@
+{
+  "instancesTotal": 1,
+  "instancesCount": 1,
+  "instancesLimit": 1,
+  "instances": [
+    {
+      "name"            : "Chassis1",
+      "revision"        : "",
+      "serial-number"   : "",
+      "health-state"    : "ok",
+      "fan-health-state": "ok",
+      "psu-health-state": "ok",
+      "part-number"     : "",
+      "controller-names": [
+        "Controller-B"
+      ],
+      "element-status-info": {
+        "power-supply-elements": [
+          {
+            "name"        : "PSU1",
+            "health-state": "ok"
+          },
+          {
+            "name"        : "PSU2",
+            "health-state": "ok"
+          }
+        ],
+        "fan-elements": [
+          {
+            "name"        : "Fan1",
+            "health-state": "ok"
+          },
+          {
+            "name"        : "Fan2",
+            "health-state": "ok"
+          },
+          {
+            "name"        : "Fan3",
+            "health-state": "ok"
+          }
+        ]
+      }
+    }
+  ]
+}

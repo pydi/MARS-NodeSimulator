@@ -1,0 +1,30 @@
+{
+  "instancesTotal": 1,
+  "instancesCount": 1,
+  "instancesLimit": 1,
+  "instances"     : [
+    {
+      "name"        : "Controller-B",
+      "revision"    : "50",
+      "cluster-name": "mycluster",
+      "chassis-name": "Chassis1",
+      "nodes-info"  : [
+        {
+          "name"      : "Node 01",
+          "os-version": "masterN_20141116_000000 (not promoted)"
+        }
+      ],
+      "serial-number"      : "940001071361",
+      "board-serial-number": "021348001952",
+      "system-id"          : "536873908",
+      "model-name"         : "FlashRay",
+      "health-state"       : "ok",
+      "cpu-health-state"   : "ok",
+      "temp-health-state"  : "ok",
+      "nvram-health-state" : "ok",
+      "sp-health-state"    : "ok",
+      "part-number"        : "111-01611",
+      "nvram-size"         : 64
+    }
+  ]
+}

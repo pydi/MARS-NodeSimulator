@@ -1,0 +1,94 @@
+{
+  "instancesTotal": 1,
+  "instancesCount": 1,
+  "instancesLimit": 1,
+  "instances"     : [
+    {
+      "name"          : "0b.shelf0",
+      "shelf-id"      : "10",
+      "shelf-uid"     : "5:00a:098001:c9e88f",
+      "product-id"    : "DS2246",
+      "vendor-id"     : "NETAPP",
+      "serial-no"     : "9432925321",
+      "firmware-A"    : "0173",
+      "firmware-B"    : "0173",
+      "module-a"      : "A",
+      "module-a-state": "SesModuleStateOk",
+      "module-b"      : "B",
+      "module-b-state": "SesModuleStateFail",
+      "shelf-state"   : "online",
+      "health-state"  : "ok",
+      "bay-list"      : ["0:","1:","2:","3:","4:","5:","6:","7:","8:","9:","10:","11:","12:","13:","14:","15:","16:","17:","18:","19:","20:","21:","22:","23:"],
+      "aggregate-element-status-info": {
+        "device-status"        : "ok",
+        "power-supply-status"  : "ok",
+        "fan-status"           : "ok",
+        "temp-sensor-status"   : "critical",
+        "es-electronics-status": "ok",
+        "display-status"       : "ok",
+        "voltage-sensor-status": "ok",
+        "current-sensor-status": "ok",
+        "sas-connector-status" : "ok",
+        "vu-83-status"         : "ok"
+      },
+      "element-status-info": {
+        "power-supply-elements": [
+          {
+            "name"        : "Power Supply 0",
+            "status"      : [ "RequestedOn", "HotSwappable"],
+            "health-state": "ok"
+          },
+          {
+            "name"        : "Power Supply 1",
+            "status"      : [ "RequestedOn", "HotSwappable"],
+            "health-state": "ok"
+          }
+        ],
+        "fan-elements": [
+          {
+            "name"        : "Fan 0",
+            "status"      : [ "RequestedOn", "HotSwappable"],
+            "health-state": "ok"
+          },
+          {
+            "name"        : "Fan 1",
+            "status"      : [ "RequestedOn", "HotSwappable"],
+            "health-state": "ok"
+          },
+          {
+            "name"        : "Fan 2",
+            "status"      : [ "RequestedOn", "HotSwappable" ],
+            "health-state": "ok"
+          },
+          {
+            "name"        : "Fan 3",
+            "status"      : [ "RequestedOn", "HotSwappable" ],
+            "health-state": "ok"
+          }
+        ],
+        "sas-connector-elements": [
+          {
+            "name"        : "SAS Connector 0",
+            "status"      : ["Swap"],
+            "health-state": "ok"
+          },
+          {
+            "name"        : "SAS Connector 1",
+            "status"      : [],
+            "health-state": "ok"
+          },
+          {
+            "name"        : "SAS Connector 2",
+            "status"      : ["Swap"],
+            "health-state": "ok"
+          },
+          {
+            "name"        : "SAS Connector 3",
+            "status"      : [],
+            "health-state": "ok"
+          }
+        ]
+      }
+    }
+  ]
+}

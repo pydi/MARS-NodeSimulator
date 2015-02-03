@@ -1,0 +1,10 @@
+{
+  "instancesTotal":0,
+  "instancesCount":0,
+  "instancesLimit":100,
+  "instances"     :[
+    {
+      "health":"critical"
+    }
+  ]
+}

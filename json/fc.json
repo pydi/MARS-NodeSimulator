@@ -1,0 +1,59 @@
+{
+  "instancesTotal": 4,
+  "instancesCount": 4,
+  "instancesLimit": 100,
+  "instances"     : [
+    {
+      "name"       : "fc1",
+      "rtpid"      : 1,
+      "transport"  : "fcp",
+      "state"      : "online",
+      "speed"      : 8,
+      "port-name"  : "0e",
+      "node-name"  : "testbed-34a_01",
+      "fc-lif-info": {
+        "wwnn": "20:01:00:a0:98:56:d6:e4",
+        "wwpn": "20:02:00:a0:98:56:d6:e4"
+      }
+    },
+    {
+      "name"       : "fc2",
+      "rtpid"      : 2,
+      "transport"  : "fcp",
+      "state"      : "linkdown",
+      "speed"      : 0,
+      "port-name"  : "0f",
+      "node-name"  : "testbed-34a_01",
+      "fc-lif-info": {
+        "wwnn": "20:01:00:a0:98:56:d6:e4",
+        "wwpn": "20:03:00:a0:98:56:d6:e4"
+      }
+    },
+    {
+      "name"       : "fc3",
+      "rtpid"      : 3,
+      "transport"  : "fcp",
+      "state"      : "linkdown",
+      "speed"      : 0,
+      "port-name"  : "0g",
+      "node-name"  : "testbed-34a_01",
+      "fc-lif-info": {
+        "wwnn": "20:01:00:a0:98:56:d6:e4",
+        "wwpn": "20:04:00:a0:98:56:d6:e4"
+      }
+    },
+    {
+      "name"       : "fc4",
+      "rtpid"      : 4,
+      "transport"  : "fcp",
+      "state"      : "linkdown",
+      "speed"      : 0,
+      "port-name"  : "0h",
+      "node-name"  : "testbed-34a_01",
+      "fc-lif-info": {
+        "wwnn": "20:01:00:a0:98:56:d6:e4",
+        "wwpn": "20:05:00:a0:98:56:d6:e4"
+      }
+    }
+  ]
+}

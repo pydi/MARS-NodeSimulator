@@ -1,0 +1,17 @@
+{
+  "instancesTotal":0,
+  "instancesCount":0,
+  "instancesLimit":100,
+  "instances"     :[
+    {
+      "id"                         : "0",
+      "state"                      : "double degrade",
+      "status"                     : "reconstructing",
+      "recon-progress-percent"     : "30",
+      "num-missing-disks"          : "2",
+      "timestamp-last-state-change": "1408655270",
+      "recon-time"                 : "1408655090",
+      "health-state"               : "ok"
+    }
+  ]
+}

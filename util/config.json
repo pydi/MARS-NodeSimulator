@@ -1,0 +1,6 @@
+module.exports = {
+  "clusterName"        : "Node Simulator",
+  "clusterSerialNumber": "999",
+  "chassisName"        : "MidPanel",
+  "ModelName"          : "FlashRay"
+};

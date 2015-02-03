@@ -1,0 +1,99 @@
+{
+  "fc-ports": [
+    {
+      "name"            : "0h",
+      "node"            : "mycluster_01",
+      "state"           : "online",
+      "status"          : "LinkNotConnected",
+      "controller-name" : "Controller-B",
+      "port-type"       : "fc",
+      "current-speed"   : 0,
+      "hardware-name"   : "50:0a:09:80:00:0b:b4:00",
+      "health-state"    : "warning",
+      "configured-speed": "Auto"
+    },
+    {
+      "name"            : "0g",
+      "node"            : "mycluster_01",
+      "state"           : "online",
+      "status"          : "LinkNotConnected",
+      "controller-name" : "Controller-B",
+      "port-type"       : "fc",
+      "current-speed"   : 0,
+      "hardware-name"   : "50:0a:09:80:00:0b:b4:01",
+      "health-state"    : "warning",
+      "configured-speed": "Auto"
+    },
+    {
+      "name"            : "0f",
+      "node"            : "mycluster_01",
+      "state"           : "online",
+      "status"          : "LinkNotConnected",
+      "controller-name" : "Controller-B",
+      "port-type"       : "fc",
+      "current-speed"   : 0,
+      "hardware-name"   : "50:0a:09:80:00:0b:b4:02",
+      "health-state"    : "warning",
+      "configured-speed": "Auto"
+    },
+    {
+      "name"            : "0e",
+      "node"            : "mycluster_01",
+      "state"           : "online",
+      "status"          : "Online",
+      "controller-name" : "Controller-B",
+      "port-type"       : "fc",
+      "current-speed"   : 8,
+      "hardware-name"   : "50:0a:09:80:00:0b:b4:03",
+      "health-state"    : "ok",
+      "configured-speed": "Auto"
+    }
+  ],
+  "sas-ports": [
+    {
+      "name"            : "0a",
+      "node"            : "mycluster_01",
+      "state"           : "online",
+      "status"          : "Online",
+      "controller-name" : "Controller-B",
+      "port-type"       : "sas",
+      "hardware-name"   : "5:00a098:0035559:50",
+      "health-state"    : "ok",
+      "configured-speed": "SasPortSpeed6G"
+    },
+    {
+      "name"            : "0b",
+      "node"            : "mycluster_01",
+      "state"           : "online",
+      "status"          : "Online",
+      "controller-name" : "Controller-B",
+      "port-type"       : "sas",
+      "hardware-name"   : "5:00a098:0035559:50",
+      "health-state"    : "ok",
+      "configured-speed": "SasPortSpeed6G"
+    },
+    {
+      "name"            : "0c",
+      "node"            : "mycluster_01",
+      "state"           : "online",
+      "status"          : "Online",
+      "controller-name" : "Controller-B",
+      "port-type"       : "sas",
+      "hardware-name"   : "5:00a098:0035559:58",
+      "health-state"    : "ok",
+      "configured-speed": "SasPortSpeed6G"
+    },
+    {
+      "name"            : "0d",
+      "node"            : "mycluster_01",
+      "state"           : "online",
+      "status"          : "Online",
+      "controller-name" : "Controller-B",
+      "port-type"       : "sas",
+      "hardware-name"   : "5:00a098:0035559:58",
+      "health-state"    : "ok",
+      "configured-speed": "SasPortSpeed6G"
+    }
+  ],
+  "ethernet-ports": []
+}

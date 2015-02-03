@@ -1,0 +1,102 @@
+
+//good
+{
+    "status": {
+        "responseTime": 1408773473,
+        "statusCode": "SUCCESS"
+    },
+    "result": {
+        "itemTotalCount": 2,
+        "itemResultsCount": 2,
+        "itemErrorsCount": 0,
+        "itemResults": [
+            {
+                "id": "MyLun01",
+                "data": {
+                    "uuid": "6bc88902-2a8a-11e4-940a-00a09856d6e4"
+                }
+            },
+            {
+                "id": "MyLun02",
+                "data": {
+                    "uuid": "6be495e8-2a8a-11e4-940a-00a09856d6e4"
+                }
+            }
+        ],
+        "itemErrors": []
+    }
+}
+
+
+// Error Message
+{
+    "status": {
+        "responseTime": 1408773769,
+        "statusCode": "PARTIALSUCCESS"
+    },
+    "error": {
+        "errorMessage": {
+            "text": "Some bulk operations are failed",
+            "key": "WEBUI_WEBAPI_ERROR_BULK_PARTIALFAILED",
+            "args": [],
+            "language": "en_US"
+        }
+    },
+    "result": {
+        "itemTotalCount": 3,
+        "itemResultsCount": 1,
+        "itemErrorsCount": 2,
+        "itemResults": [
+            {
+                "id": "MyLun05",
+                "data": {
+                    "uuid": "1c5c6108-2a8b-11e4-940a-00a09856d6e4"
+                }
+            }
+        ],
+        "itemErrors": [
+            {
+                "id": "MyLun03",
+                "error": {
+                    "errorMessage": {
+                        "text": "FlashRay system failed to execute operation, code 27061",
+                        "key": "WEBUI_MARS_ERROR_FAILED_EXECMD",
+                        "args": [
+                            "27061"
+                        ],
+                        "language": "en_US"
+                    },
+                    "causeMessage": {
+                        "text": "Name specified for this LUN is already in use by an existing LUN.",
+                        "key": "27061",
+                        "args": [
+                            "{}"
+                        ],
+                        "language": "en_US"
+                    }
+                }
+            },
+            {
+                "id": "MyLun04",
+                "error": {
+                    "errorMessage": {
+                        "text": "FlashRay system failed to execute operation, code 27061",
+                        "key": "WEBUI_MARS_ERROR_FAILED_EXECMD",
+                        "args": [
+                            "27061"
+                        ],
+                        "language": "en_US"
+                    },
+                    "causeMessage": {
+                        "text": "Name specified for this LUN is already in use by an existing LUN.",
+                        "key": "27061",
+                        "args": [
+                            "{}"
+                        ],
+                        "language": "en_US"
+                    }
+                }
+            }
+        ]
+    }
+}
